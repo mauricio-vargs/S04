@@ -1,5 +1,5 @@
 function greetings(hour) {
-    if(hour <= 12){
+    if(hour <= 12 && hour > 0){
         return `Bom dia!`
     } else if(hour > 12 && hour < 18) {
         return `Boa tarde!`
